@@ -1,4 +1,4 @@
-﻿var URLBase = "https://localhost:44378/"; // Replace with your actual base URL
+﻿var URLBase = "http://natillera2025.runasp.net/"; // Replace with your actual base URL
 
 
 async function Ingresar() {
@@ -41,9 +41,9 @@ async function Ingresar() {
 }
 
 class Login {
-    constructor(usuario, clave) {
-        this.usuario = usuario;
-        this.clave = clave;
+    constructor(Usuario, Clave) {
+        this.Usuario = Usuario;
+        this.Clave = Clave;
     }
 
 }
