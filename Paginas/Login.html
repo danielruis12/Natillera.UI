@@ -1,25 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<html lang="es" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio App dllo WEB</title>
 
-    <!-- Google Font: Source Sans Pro -->
+    <!-- Favicon (logo en la pestaña) -->
+    <link rel="icon" href="scripts/ImagenesNat/Nicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
     <!-- Font Awesome -->
     <link href="Estilos/css/all.min.css" rel="stylesheet" />
+
     <!-- Theme style -->
     <link href="Estilos/adminlte.min.css" rel="stylesheet" />
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="Estilos/css/estiloslogin.css">
 </head>
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <h1>APLICACIÓN</h1>
+            <!-- Logo en el encabezado -->
+            <div class="logo-container">
+                <img src="scripts/ImagenesNat/NIcon.png" alt="Natillera">
+            </div>
+            <h1>LA NATILLERA!</h1>
         </div>
-        <!-- /.login-logo -->
+
         <div class="card">
             <div class="card-body login-card-body">
-                <p class="login-box-msg">Ingresa usuario clave para iniciar</p>
+                <p class="login-box-msg">Ingresa usuario y clave!</p>
 
                 <form>
                     <div class="input-group mb-3">
@@ -43,15 +56,27 @@
                             <button type="button" class="btn btn-primary btn-block" onclick="Ingresar()">INGRESAR</button>
                         </div>
                     </div>
+
+                    <div class="row mt-3">
+                        <div class="col-6 text-left">
+                            <a href="#">¿Olvidaste tu clave?</a>
+                        </div>
+                        <div class="col-6 text-right">
+                            <a href="#">Registrarse</a>
+                        </div>
+                    </div>
                 </form>
             </div>
             <div class="card-footer">
                 <div id="dvMensaje" class=""></div>
             </div>
-            <!-- /.login-card-body -->
         </div>
     </div>
-    <!-- /.login-box -->
+
+    <div class="footer">
+        <p>&copy; 2023 Aplicación Web. Todos los derechos reservados.</p>
+    </div>
+
     <script src="../Scripts/jquery-3.4.1.min.js"></script>
     <script src="../Scripts/bootstrap.bundle.min.js"></script>
     <script src="Scripts/Comunes/CRUD.js"></script>
