@@ -121,6 +121,7 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Paginas\Clientes.html" />
     <Content Include="Paginas\Estilos\css\estiloslogin.css" />
     <Content Include="Paginas\Estilos\css\menu.css" />
     <Content Include="Paginas\Login.html" />
@@ -130,6 +131,7 @@
     <Content Include="Paginas\Pagina2.html" />
     <Content Include="Paginas\PaginaBase.html" />
     <Content Include="Paginas\Scripts\Comunes\CRUD.js" />
+    <Content Include="Paginas\Scripts\Cliente.js" />
     <Content Include="Paginas\Scripts\ImagenesNat\NIcon.ico" />
     <Content Include="Paginas\Scripts\ImagenesNat\NIcon.png" />
     <Content Include="Paginas\Scripts\Login.js" />
