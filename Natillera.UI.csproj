@@ -121,6 +121,12 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Paginas\Login.html" />
+    <Content Include="Paginas\Menu.html" />
+    <Content Include="Paginas\MenuLateral.html" />
+    <Content Include="Paginas\Pagina1.html" />
+    <Content Include="Paginas\Pagina2.html" />
+    <Content Include="Paginas\PaginaBase.html" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -232,6 +238,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Paginas\Estilos\css\" />
+    <Folder Include="Paginas\Estilos\webfonts\" />
+    <Folder Include="Paginas\Scripts\Comunes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
