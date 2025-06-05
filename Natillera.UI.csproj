@@ -133,6 +133,7 @@
     <Content Include="Paginas\Scripts\ImagenesNat\NIcon.png" />
     <Content Include="Paginas\Scripts\Login.js" />
     <Content Include="Paginas\Scripts\LoginF.js" />
+    <Content Include="Paginas\Scripts\Pagina1.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
