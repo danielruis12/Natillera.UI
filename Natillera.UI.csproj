@@ -128,6 +128,7 @@
     <Content Include="Paginas\Pagina1.html" />
     <Content Include="Paginas\Pagina2.html" />
     <Content Include="Paginas\PaginaBase.html" />
+    <Content Include="Paginas\Scripts\Comunes\CRUD.js" />
     <Content Include="Paginas\Scripts\ImagenesNat\NIcon.ico" />
     <Content Include="Paginas\Scripts\ImagenesNat\NIcon.png" />
     <Content Include="Paginas\Scripts\Login.js" />
@@ -246,7 +247,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Paginas\Estilos\webfonts\" />
-    <Folder Include="Paginas\Scripts\Comunes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
