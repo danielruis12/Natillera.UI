@@ -34,8 +34,8 @@
     }
 }
 class Login {
-    constructor(usuario, clave) {
-        this.usuario = usuario;
-        this.clave = clave;
+    constructor(Usuario, Clave) {
+        this.Usuario = Usuario;
+        this.Clave = Clave;
     }
 }
